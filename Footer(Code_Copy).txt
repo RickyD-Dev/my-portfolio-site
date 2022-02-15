@@ -1,0 +1,18 @@
+**Not used in App**
+
+import React from "react";
+
+function Footer() {
+    return (
+        <div className="footer-section">
+                <ul>
+                    <li>Link</li>
+                    <li>Link</li>
+                    <li>Link</li>
+                </ul>
+                <p>Created by Ricardo Delgado</p>
+            </div>
+    )
+}
+
+export default Footer;

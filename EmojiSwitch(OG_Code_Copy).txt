@@ -1,0 +1,16 @@
+import React, { useState } from "react";
+
+function EmojiSwitch() {
+
+    const [emojiDefault, setEmoji] = useState("🙂");
+
+    function handleEmoji() {
+        setEmoji("😄");
+    }
+
+    return(
+        <p className="contact-destiny-p">{emojiDefault}</p>
+    )
+}
+
+export default EmojiSwitch;
