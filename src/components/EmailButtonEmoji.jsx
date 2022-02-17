@@ -46,6 +46,9 @@ function EmailButtonEmoji() {
         } else if (deviceScreenWidth <= 835 && deviceScreenHeight > 814 && deviceScreenHeight <= 897 && window.scrollY >= 3480) {
             setHover(true);
             setEmoji("😄");
+        } else if (deviceScreenWidth <= 835 && deviceScreenHeight > 898 && deviceScreenHeight <= 930 && window.scrollY >= 3568) {
+            setHover(true);
+            setEmoji("😄");
         } else {
             setHover(false);
             setEmoji("🙂");
