@@ -630,6 +630,13 @@ header .nav-list {
     }
 }
 
+@media only screen and (orientation: landscape)and (min-height: 359px) and (max-height: 809px)  {
+    .intro {
+        height: 450px;
+        padding-bottom: 2em;
+    }
+}
+
 /* ----Second Section - Experience---- */
 
 #skills {
@@ -641,7 +648,6 @@ header .nav-list {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2em;
     height: 100vh;
 }
 
@@ -830,7 +836,19 @@ header .nav-list {
     }
 }
 
+@media only screen and (orientation: landscape)and (min-height: 359px) and (max-height: 809px)  {
+    .experience-section {
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
 /* ----Projects Section---- */
+
+#projects {
+    padding-bottom: 4rem;
+}
 
 .projects-section {
     display: flex;
@@ -866,25 +884,45 @@ header .nav-list {
     max-width: 35em;
 }
 
-.projects-list {
+/* .projects-list {
     background-color: rgb(49, 49, 67);
     border-radius: 10px;
     box-shadow: 5px 8px 10px #000;
     display: grid;
     width: 85%;
     padding: 0 2em;
+} */
+
+.projects-list {
+    display: grid;
+    padding: 0 2em;
+    gap: 1.5em;
 }
 
-.project-item p {
+.project-item {
+    background-color: rgb(49, 49, 67);
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px #000;
+    width: 100%;
+    padding: 0 2em;
+}
+
+.project-desc {
     font-weight: 100;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .project-title {
+    padding: 15px 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
     text-align: center;
+    font-weight: 400;
 }
+
+/* .project-desc {
+    border: 1px solid rgba(255,255,255,0.6);
+} */
 
 .texasSlingsGif {
     width: 100%;
@@ -901,6 +939,14 @@ header .nav-list {
 
     .projects-title h2 {
         font-size: 2rem;
+    }
+}
+
+@media only screen and (orientation: landscape)and (min-height: 359px) and (max-height: 809px)  {
+    .projects-section {
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 }
 
@@ -1064,7 +1110,7 @@ header .nav-list {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 96%;
+    width: 100%;
     max-width: 30em;
     padding: 0 1.5em;
 }
@@ -1125,7 +1171,7 @@ header .nav-list {
     box-shadow: 5px 8px 10px #000;
 }
 
-.emailBorderAnimation-andMobileAnimation {
+.email-mobile-animation {
     transition: background-color 0.1s ease-in-out, border 0.2s ease-in-out;
     animation: glow 2s infinite;
     animation-timing-function: ease-in-out;
@@ -1149,6 +1195,13 @@ header .nav-list {
     font-weight: 300;
     border-radius: 15px;
     width: 100%;
+}
+
+.target {
+    border: 1px solid rgba(255, 255, 255, 0);
+    display: block;
+    position: relative;
+    top: 130px;
 }
 
 @media screen and (min-width: 800px) {
@@ -1188,6 +1241,14 @@ header .nav-list {
 
     .contact-description p:first-child {
         padding-top: 0.5em;
+    }
+}
+
+@media only screen and (orientation: landscape)and (min-height: 359px) and (max-height: 809px)  {
+    .contact-section {
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 }
 

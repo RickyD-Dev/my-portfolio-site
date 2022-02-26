@@ -32,7 +32,7 @@ function Main() {
             <div id="skills"></div>
 
             <section id="" className="experience-section">
-                <div className="experience-title" data-aos-delay="800" data-aos="fade-up" data-aos-duration="800">
+                <div className="experience-title" data-aos-delay="500" data-aos="fade-up" data-aos-duration="800">
                     <h1>Front End Dev</h1>
                     <h2>With Full Stack Knowledge</h2>
                 </div>
@@ -125,15 +125,19 @@ function Main() {
                 </div>
             </section>
 
-            <section id="projects" className="projects-section">
-                <div className="projects-title" data-aos-delay="800" data-aos="fade-up" data-aos-duration="800">
+            <div id="projects"></div>
+
+            <section id="" className="projects-section">
+                <div className="projects-title" data-aos-delay="500" data-aos="fade-up" data-aos-duration="800">
                     <h1>Projects</h1>
                     <h2>"It Ain't Much, but It's Honest Work"</h2>
                 </div>
 
                 <div className="projects-container" data-aos-delay="1000" data-aos="fade-up" data-aos-duration="800">
                     <ul className="projects-list">
-                        <li className="project-item"><p className="project-title">Texas Slings</p><a href="https://texasslings.com/" target="_blank"><img className="texasSlingsGif" src={projectGif} alt="image"/></a><p>I created this website for a vehicle rental company. We partnered with FareHarbor for the booking functionality. I took care of the rest using HTML, CSS, and JavaScript. I also deployed the site using a web hosting service and learned to navigate through cPanel.</p></li>
+                        <li className="project-item"><p className="project-title">Texas Slings</p><a href="https://texasslings.com/" target="_blank"><img className="texasSlingsGif" src={projectGif} alt="image"/></a><p className="project-desc">I created this website for a vehicle rental company. We partnered with FareHarbor for the booking functionality. I took care of the rest using HTML, CSS, and JavaScript. I also deployed the site using a web hosting service and also learned how to navigate cPanel.</p></li>
+
+                        <li className="project-item"><p className="project-title">To Be Announced...</p><a href="https://texasslings.com/" target="_blank"></a></li>
                     </ul>
                 </div>
             </section>
@@ -141,7 +145,7 @@ function Main() {
             <div id="aboutMe"></div>
 
             <section id="" className="aboutMe-section">
-                <div className="aboutMe-title" data-aos-delay="800" data-aos="fade-up" data-aos-duration="800">
+                <div className="aboutMe-title" data-aos-delay="500" data-aos="fade-up" data-aos-duration="800">
                     <h1>About Me</h1>
                     <h2>Here Comes the Spotlight</h2>
                 </div>
@@ -168,7 +172,7 @@ function Main() {
             </section>
 
             <section className="contact-section" id="contact">
-                <div className="contact-title" data-aos-delay="600" data-aos="fade-up" data-aos-duration="600">
+                <div className="contact-title" data-aos-delay="500" data-aos="fade-up" data-aos-duration="600">
                     <h1>Contact Me</h1>
                     <h2>Don't Be Shy</h2>
                 </div>
