@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.55dc4cc5.chunk.js",
-    "main.js.map": "/static/js/main.55dc4cc5.chunk.js.map",
+    "main.js": "/static/js/main.600346e1.chunk.js",
+    "main.js.map": "/static/js/main.600346e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ef8b68f.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ef8b68f.js.map",
     "static/js/2.f8850779.chunk.js": "/static/js/2.f8850779.chunk.js",
@@ -9,11 +9,12 @@
     "index.html": "/index.html",
     "static/js/2.f8850779.chunk.js.LICENSE.txt": "/static/js/2.f8850779.chunk.js.LICENSE.txt",
     "static/media/portfolioImage.89891ffa.jpg": "/static/media/portfolioImage.89891ffa.jpg",
-    "static/media/texasSlings.c77fb8cc.gif": "/static/media/texasSlings.c77fb8cc.gif"
+    "static/media/sonusGiphy.cc1ab97a.gif": "/static/media/sonusGiphy.cc1ab97a.gif",
+    "static/media/texasSlings.4f7971ea.gif": "/static/media/texasSlings.4f7971ea.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.1ef8b68f.js",
     "static/js/2.f8850779.chunk.js",
-    "static/js/main.55dc4cc5.chunk.js"
+    "static/js/main.600346e1.chunk.js"
   ]
 }
