@@ -32,7 +32,7 @@ function EmailButtonEmoji() {
         if (currentTarget) observer.observe(currentTarget);
 
         return () => {
-            if(currentTarget) observer.unobserve(currentTarget);
+            if (currentTarget) observer.unobserve(currentTarget);
         }
     }, [targetRef, options]);
 
@@ -59,42 +59,6 @@ function EmailButtonEmoji() {
     function handleClickEmoji() {
         setClickEmoji("🙌");
     }
-
-    // observer.observe(contactDesc);
-
-
-
-    // function addMobileHover() {
-    //     const deviceScreenWidth = window.screen.width;
-    //     const deviceScreenHeight = window.screen.height;
-
-    //     if (deviceScreenWidth <= 835 && deviceScreenHeight <= 670 && window.scrollY >= 2887) {
-    //         setHover(true);
-    //         setEmoji("😄");
-    //     } else if (deviceScreenWidth <= 835 && deviceScreenHeight > 671 && deviceScreenHeight <= 736 && window.scrollY >= 3065) {
-    //         setHover(true);
-    //         setEmoji("😄");
-    //     } else if (deviceScreenWidth <= 835 && deviceScreenHeight > 737 && deviceScreenHeight <= 813 && window.scrollY >= 3322) {
-    //         setHover(true);
-    //         setEmoji("😄");
-    //     } else if (deviceScreenWidth <= 835 && deviceScreenHeight > 814 && deviceScreenHeight <= 897 && window.scrollY >= 3480) {
-    //         setHover(true);
-    //         setEmoji("😄");
-    //     } else if (deviceScreenWidth <= 835 && deviceScreenHeight > 898 && deviceScreenHeight <= 930 && window.scrollY >= 3530) {
-    //         setHover(true);
-    //         setEmoji("😄");
-    //     } else if (deviceScreenWidth <= 835 && deviceScreenHeight > 930 && deviceScreenHeight <= 960 && window.scrollY >= 3490) {
-    //         setHover(true);
-    //         setEmoji("😄");
-    //     } else {
-    //         setHover(false);
-    //         setEmoji("🙂");
-    //     }
-    // }
-
-    // window.onload = function observeOnLoad() {
-    //     observer.observe(contactDesc);
-    // };
 
     return (
         <div className="email-button-container" data-aos-delay="800" data-aos="fade-up" data-aos-duration="600">
