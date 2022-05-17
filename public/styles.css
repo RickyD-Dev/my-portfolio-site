@@ -508,21 +508,21 @@ header .nav-list {
 
 @media screen and (min-width: 1588px) {
     #light-up-left {
-        left: 5%;
+        left: 7%;
     }
 
     #light-up-right {
-        right: 5%;
+        right: 7%;
     }
 }
 
 @media screen and (min-width: 1710px) {
     #light-up-left {
-        left: 8.5%;
+        left: 12.5%;
     }
 
     #light-up-right {
-        right: 8.5%;
+        right: 12.5%;
     }
 }
 
