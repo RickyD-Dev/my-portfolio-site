@@ -33,7 +33,6 @@ function Header() {
                     <ul className={`${isActive ? "nav-list" : "nav-list--open"}`}>
                         <li className="nav-item" onClick={handleToggle}><a href="#skills" title="Skills">Skills</a></li>
                         <li className="nav-item" onClick={handleToggle}><a href="#projects" title="Projects">Projects</a></li>
-                        <li className="nav-item" onClick={handleToggle}><a href="#aboutMe" title="About Me">About</a></li>
                         <li className="nav-item" onClick={handleToggle}><a href="#contact" title="Contact">Contact</a></li>
                     </ul>
                 </nav>

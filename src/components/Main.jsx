@@ -40,7 +40,7 @@ function Main() {
 
             <div id="contact"></div>
 
-            <section className="contact-section" id="contact">
+            <section className="contact-section">
                 <div className="contact-title" data-aos-delay="500" data-aos="fade-up" data-aos-duration="600">
                     <h1>Contact Me</h1>
                     <h2>Don't Be Shy</h2>
