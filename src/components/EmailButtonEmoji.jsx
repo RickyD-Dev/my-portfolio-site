@@ -61,7 +61,7 @@ function EmailButtonEmoji() {
     }
 
     return (
-        <div className="email-button-container" data-aos-delay="800" data-aos="fade-up" data-aos-duration="600">
+        <div className="email-button-container">
             <p
             className="contact-emoji"
             >

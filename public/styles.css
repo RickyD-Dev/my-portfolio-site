@@ -723,13 +723,20 @@ header .nav-list {
     width: 100%;
     max-width: 600px;
     justify-content: center;
-    align-items: center;
     padding: 0 1.5em;
 }
 
 .about-description p {
     font-weight: 100;
     padding-bottom: 12px;
+}
+
+.svelteKit-link {
+    text-decoration: underline;
+}
+
+.svelteKit-link:hover {
+    color: #19D3DA;
 }
 
 .skill-section {
@@ -949,7 +956,6 @@ header .nav-list {
     font-weight: 100;
     margin: 5px;
     padding: 10px;
-    background-color: rgba(0,0,0,0.2);
     border-radius: 10px;
 }
 
@@ -1016,13 +1022,13 @@ header .nav-list {
 
 .aboutMe-title h1 {
     font-size: 3rem;
-    padding-right: 6.5rem;
+    /* padding-right: 6.5rem; */
 }
 
 .aboutMe-title h2 {
     color: rgba(255,255,255,0.61);
     font-size: 1.3rem;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
 }
 
 .aboutMe-container {
@@ -1064,7 +1070,7 @@ header .nav-list {
 
     .aboutMe-title h2 {
         font-size: 2rem;
-        padding-left: 5rem;
+        /* padding-left: 5rem; */
     }
 
     .aboutMe-container p {
@@ -1123,6 +1129,10 @@ header .nav-list {
 }
 
 /* ----Contact Section---- */
+#contact {
+    padding-bottom: 7rem;
+}
+
 .contact-section {
     height: 100vh;
     display: flex;
@@ -1176,6 +1186,7 @@ header .nav-list {
     padding-bottom: 12px;
     text-align: center;
     width: 100%;
+    max-width: 500px;
 }
 
 .contact-description p:first-child {

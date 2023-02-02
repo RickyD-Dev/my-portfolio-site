@@ -12,9 +12,7 @@ function Experience() {
                 <div className="about-description" data-aos-delay="1000" data-aos="fade-up" data-aos-duration="800">
                     <p>I started learning to code in 2015 and was immediately hooked after learning just how much can be accomplished with HTML & CSS alone.</p>
 
-                    <p>In 2019, I began to take my learning seriously and enrolled into a few Udemy courses. My intentions were to learn how to become a front-end developer but the courses also allowed me to learn the role of a back-end dev as well. Recently, React has been my library of choice!</p>
-
-                    <p>I picked up on these technologies listed here:</p>
+                    <p>In 2019, I began to take my learning seriously and enrolled into a few Udemy courses. My intentions were to learn how to become a front-end developer but the courses also allowed me to learn the role of a back-end dev as well. I enjoy using React but <a className="svelteKit-link" href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a> has recently become my go-to framework!</p>
                 </div>
 
                 <div className="skills">
